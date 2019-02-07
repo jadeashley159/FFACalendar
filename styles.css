@@ -3,3 +3,32 @@ th {
     border: 1px solid black;
     padding: 6px;
 }
+
+.date {
+    margin-left: 50px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.container {
+    margin: 0 auto;
+}
+h1,
+.date,
+th {
+    font-family: "Georgia", serif;
+}
+td {
+    font-family: "Verdana", serif;
+}
+h1,
+.date {
+    color: #004c97;
+}
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
