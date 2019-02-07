@@ -1,29 +1,18 @@
-td,
-th {
-    border: 1px solid black;
-    padding: 6px;
-}
-
-.date {
-    margin-left: 50px;
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.container {
-    margin: 0 auto;
-}
 h1,
-.date,
-th {
+.date {
     font-family: "Georgia", serif;
 }
-td {
-    font-family: "Verdana", serif;
+h1 {
+    text-align: center;
 }
 h1,
 .date {
     color: #004c97;
+}
+.date {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 10px;
 }
 .footer {
     position: absolute;
@@ -31,4 +20,56 @@ h1,
     bottom: 0;
     left: 0;
     text-align: center;
+}
+/* .phone {
+    visibility: visible;
+}
+.compt {
+    visibility: hidden;
+} */
+.flex-me {
+    display: flex;
+    flex-direction: column;
+}
+.day {
+    border: 1px solid black;
+    padding: 6px;
+}
+.activities {
+    text-align: center;
+}
+/* .flex-me div:nth-child(2) {
+
+} */
+.dayheader {
+    font-weight: bold;
+}
+.dateimg {
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+@media (min-width: 800px) {
+    .container {
+        margin: 0 auto;
+    }
+    .flex-me {
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+    }
+
+    .date {
+        margin-left: 50px;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    .dayheader {
+        border-bottom: 1px solid black;
+    }
+    /* .compt {
+        visibility: visible;
+    }
+    .phone {
+        visibility: hidden;
+    } */
 }
